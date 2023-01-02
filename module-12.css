@@ -1,0 +1,75 @@
+*{
+    font-family: 'Sen';
+    font-style: normal;
+   
+    
+
+    }
+
+
+    body{
+        background: linear-gradient(103.71deg, rgba(97, 192, 191, 0.28) 5.64%, rgba(255, 182, 185, 0.46) 45.19%, #FAE3D9 86.43%);
+        
+    }
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 80px;
+  
+}
+.span1,.span2,.span3
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    
+
+
+}
+
+input{
+    width: 150px;
+    height: 30px;
+}
+label{
+    margin-bottom: 20px;
+}
+
+#form-section{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+button{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(60, 160, 255, 0.84);
+    width: 120px;
+    margin-left: 500px;
+    margin-top: 40px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+button:hover
+{
+    color: green;
+}
+ 
+#div1{
+    display: flex;
+    justify-content: center;
+    color:  #20B2AA;
+    text-align: center;
+ margin-top: 30px;
+ font-size: 25px;
+    font-family: 'Sen';
+font-style: normal;
+text-transform: capitalize;
+}
